@@ -1,0 +1,26 @@
+{
+  "name": "exercicios-logica-de-programacao",
+  "version": "1.0.0",
+  "description": "Documentação das minhas soluções do livro Lógica de Programação e Algoritmos com JavaScript 💙",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandapolari/exercicios-logica-de-programacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandapolari/exercicios-logica-de-programacao/issues"
+  },
+  "homepage": "https://github.com/amandapolari/exercicios-logica-de-programacao#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
