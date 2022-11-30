@@ -1,0 +1,19 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-image: linear-gradient(
+      140deg,
+      #4ba8fad4,
+      #436adec6,
+      #7171efe7,
+      #8062d1d1,
+      #e339fad7
+    );
+    background-attachment: fixed;
+}
+input {
+    margin: 0.5vw;
+}
