@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+// QUESTÃO 1
+// a) Elaborar um programa que leia um número. Calcule e informe os seus vizinhos, ou seja, o número anterior e posterior
+// Solução a)
+//=> Captura os dados de entrada:
+    const initialNumber = Number(prompt("Escolha um número:"));
+    // Testando resultado
+    console.log(initialNumber);
+
+//=> Processa os os dados de entrada:
+    // Resulta em número anterior:
+    const previousNumber = initialNumber - 1;
+    // Testando resultado
+    console.log(previousNumber);
+
+    // Resulta em número posterior:
+    const laterNumber = initialNumber + 1;
+    // Testando resultado
+    console.log(laterNumber);
+
+//=> Apresentação de resultado ao usuário:
+    alert(`O número anterior ao que vc digitou é ${previousNumber} e o número posterior é ${laterNumber}`);
+</script>
+    
+</body>
+</html>

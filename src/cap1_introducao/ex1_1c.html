@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+// QUESTÃO 1
+// c) Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para o pagamento à vista com 10% de desconto e o valor em 3x.
+// Solução c)
+//=> Captura os dados de entrada:
+    const productPrice = Number(prompt("Digite o preço do produto:"));
+    // Testando resultado
+    console.log(`O preço do produto é R$ ${productPrice}`);
+
+//=> Processa os os dados:
+    // Calcula quanto é 10% do valor obtido:
+    const discountPercentage = productPrice*0.10;
+    // Testando resultado
+    console.log(`O desconto de 10% é R$ ${discountPercentage}`);
+
+    // Subtraindo 10% do valor total:
+    const totalWithDiscount = productPrice - discountPercentage;
+    // Testando resultado
+    console.log(`O valor à vista com desconto de 10% é R$ ${totalWithDiscount}`);
+
+    // Calculando parcela:
+    const installmentValue = productPrice/3;
+    // Testando resultado
+    console.log(`O valor parcelado é 3 de R$ ${installmentValue}`);
+
+//=> Apresentação de resultado ao usuário:
+alert(`O valor à vista com desconto de 10% é R$ ${totalWithDiscount}, e o valor parcelado é 3 de R$ ${installmentValue}`);
+</script>
+    
+</body>
+</html>

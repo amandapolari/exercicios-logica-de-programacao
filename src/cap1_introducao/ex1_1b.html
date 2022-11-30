@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+// QUESTÃO 1
+// b) Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente:
+// Solução b)
+//=> Captura os dados de entrada 1:
+    const accountValue = Number(prompt("Informe o valor da conta:"));
+    // Testando resultado
+    console.log(accountValue);
+
+//=> Captura os dados de entrada 2:
+    const customersNumber = Number(prompt("Informe o número de clientes:"));
+    // Testando resultado
+    console.log(customersNumber);
+
+//=> Processa os os dados de entrada:
+    // Resulta do cálculo por cliente:
+    const paymentPerCustomer = accountValue/customersNumber;
+    // Testando resultado
+    console.log(paymentPerCustomer);
+
+//=> Apresentação de resultado ao usuário:
+    alert(`O valor a ser pago por cada cliente é ${paymentPerCustomer}`);
+</script>
+    
+</body>
+</html>
